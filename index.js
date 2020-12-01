@@ -1,5 +1,5 @@
-odule.exports = {
-	parserPreset: 'conventional-changelog-conventionalcommits',
+module.exports = {
+	parserPreset: './parser-preset.js',
 	rules: {
 		'body-max-line-length': [2, 'always', 72],
 		'body-leading-blank': [1, 'always'],
@@ -22,17 +22,17 @@ odule.exports = {
 			2,
 			'always',
 			[
-				'[build]',
-				'[chore]',
-				'[ci]',
-				'[docs]',
-				'[feat]',
-				'[fix]',
-				'[perf]',
-				'[refactor]',
-				'[revert]',
-				'[style]',
-				'[test]'
+				'build',
+				'chore',
+				'ci',
+				'docs',
+				'feat',
+				'fix',
+				'perf',
+				'refactor',
+				'revert',
+				'style',
+				'test'
 			]
 		]
 	}

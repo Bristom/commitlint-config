@@ -1,6 +1,6 @@
 {
 	"name": "@bristom/commitlint-config",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "index.js",
 	"license": "MIT",
 	"private": false,
@@ -9,7 +9,14 @@
 		"commitlint",
 		"commitlint-config"
 	],
-	"repository": {
-		"url": "https://github.com/Bristom/commitlint-config"
-	}
+	"repository": "https://github.com/Bristom/commitlint-config",
+	"author": "luk3skyw4lker <lucashenriqueblemos@gmail.com>",
+	"devDependencies": {
+		"@bristom/commitlint-config": "^1.0.0",
+		"@commitlint/cli": "^11.0.0",
+		"@commitlint/lint": "^11.0.0",
+		"@commitlint/utils": "^9.0.1",
+		"husky": "^4.3.0"
+	},
+	"dependencies": {}
 }
