@@ -1,0 +1,11 @@
+{
+	"name": "@bristom/commitlint-config",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"description": "Bristom commitlint config for commit patterns",
+	"keywords": [
+		"commitlint",
+		"commitlint-config"
+	]
+}
