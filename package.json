@@ -3,9 +3,13 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"license": "MIT",
+	"private": false,
 	"description": "Bristom commitlint config for commit patterns",
 	"keywords": [
 		"commitlint",
 		"commitlint-config"
-	]
+	],
+	"repository": {
+		"url": "https://github.com/Bristom/commitlint-config"
+	}
 }
