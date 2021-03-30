@@ -1,7 +1,7 @@
 module.exports = {
 	parserPreset: './parser-preset.js',
 	rules: {
-		'body-max-line-length': [2, 'always', 72],
+		'body-max-line-length': [2, 'always', 100],
 		'body-leading-blank': [1, 'always'],
 
 		'footer-max-line-length': [2, 'always', 72],
@@ -12,7 +12,7 @@ module.exports = {
 		'scope-case': [2, 'always', 'lower-case'],
 
 		'subject-case': [2, 'always', 'sentence-case'],
-		'subject-max-length': [2, 'always', 50],
+		'subject-max-length': [2, 'always', 70],
 		'subject-full-stop': [2, 'never', '.'],
 		'subject-empty': [2, 'never'],
 
@@ -33,7 +33,7 @@ module.exports = {
 				'revert',
 				'style',
 				'test',
-				'deps',
+				'deps'
 			]
 		]
 	}
