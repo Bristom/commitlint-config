@@ -33,7 +33,9 @@ module.exports = {
 				'revert',
 				'style',
 				'test',
-				'deps'
+				'deps',
+				'wip',
+				'release'
 			]
 		]
 	}
